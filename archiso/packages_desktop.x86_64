@@ -51,7 +51,6 @@ memtest86+-efi
 os-prober
 refind
 syslinux
-tpm2-tss
 
 # Filesystems
 btrfs-progs
@@ -63,7 +62,6 @@ fatresize
 gpart
 gparted
 gptfdisk
-lvm2
 mdadm
 dmraid
 ntfs-3g
@@ -173,6 +171,7 @@ vulkan-virtio
 # System utilities
 alacritty
 ckbcomp
+gcc
 libwnck3
 lvm2
 mkinitcpio-nfs-utils
@@ -180,6 +179,7 @@ micro
 ndisc6
 realtime-privileges
 rsync
+tpm2-tss
 
 # Gaming
 discord
