@@ -111,7 +111,6 @@ lsscsi
 nvme-cli
 pcsclite
 smartmontools
-tpm2-tss
 usb_modeswitch
 usbmuxd
 usbutils
