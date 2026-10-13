@@ -1,0 +1,40 @@
+---
+componentName: boozeos
+
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+
+windowExpanding: normal
+windowSize: 1100px,520px
+windowPlacement: center
+
+sidebar: qml,bottom
+navigation: widget
+
+strings:
+    productName:         Booze OS
+    shortProductName:    Booze OS
+    version:             "2026.10"
+    shortVersion:        "2026.10"
+    versionedName:       "Booze OS 2026.10"
+    shortVersionedName:  "Booze OS 2026.10"
+    bootloaderEntryName: BoozeOS
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "icon.png"
+    productWelcome:      "welcome.png"
+
+style:
+    SidebarBackground:        "#1c1c2e"
+    SidebarText:              "#ffffff"
+    SidebarTextCurrent:       "#1c1c2e"
+    SidebarBackgroundCurrent: "#e8a020"
+
+slideshow:    "show.qml"
+slideshowAPI: 2
+
+uploadServer:
+    type:      "none"
+    url:       ""
+    sizeLimit: -1
