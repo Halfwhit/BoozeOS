@@ -16,11 +16,14 @@ else
     echo ">>> archiso already installed" | tee -a "$LOG"
 fi
 
+echo ">>> Cleaning previous build..." | tee -a "$LOG"
+rm -rf "$SCRIPT_DIR/build"
+
 echo ">>> Starting ISO build..." | tee -a "$LOG"
 echo "" | tee -a "$LOG"
 
 cd "$SCRIPT_DIR"
-bash buildiso.sh 2>&1 | tee -a "$LOG"
+PACKAGER="pacman --noconfirm" bash buildiso.sh 2>&1 | tee -a "$LOG"
 
 echo "" | tee -a "$LOG"
 echo "=== Build complete: $(date) ===" | tee -a "$LOG"
