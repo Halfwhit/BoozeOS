@@ -3,6 +3,7 @@ arch-install-scripts
 archlinux-keyring
 base
 bash-completion
+fish
 cryptsetup
 diffutils
 fakeroot
