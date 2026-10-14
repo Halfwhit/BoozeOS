@@ -45,6 +45,8 @@ main() {
 EOF
 
     sudo cp "/usr/share/calamares/settings_${mode}.conf" /etc/calamares/settings.conf
+    # Booze OS: the cp above overwrites /etc/calamares/settings.conf, so re-apply our branding
+    sudo sed -i 's/^branding:.*/branding: boozeos/' /etc/calamares/settings.conf
     exec pkexec-wrapper calamares -D6 >> $log
 }
 
